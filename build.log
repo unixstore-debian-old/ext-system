@@ -1,0 +1,28 @@
+--- [SYSTEM] PACK: 'ext-system' (*.orig.tar.xz)
+File '*.orig.tar.*' not found! Creating...
+File 'ext-system_1.0.1.orig.tar.xz' created!
+--- [SYSTEM] BUILD: 'github.com/unixstore/debian-ext-system.git'
+dpkg-source: info: using source format '3.0 (quilt)'
+dpkg-source: info: building ext-system using existing ./ext-system_1.0.1.orig.tar.xz
+dpkg-source: warning: ignoring deletion of file apt_auto.sh, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory cron.d
+dpkg-source: warning: ignoring deletion of file cron.d/apt_auto, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory sysctl.d
+dpkg-source: warning: ignoring deletion of file sysctl.d/00-sysctl.custom.conf, use --include-removal to override
+dpkg-source: info: building ext-system in ext-system_1.0.1-10.debian.tar.xz
+dpkg-source: info: building ext-system in ext-system_1.0.1-10.dsc
+File 'ext-system_1.0.1-10.dsc' found!
+Build completed!
+--- [SYSTEM] MOVE: '/root/git/src' -> '/root/git/dst'
+Removing old files from repository...
+Moving new files to repository...
+renamed '/root/git/src/_service' -> '/root/git/dst/_service'
+renamed '/root/git/src/_meta' -> '/root/git/dst/_meta'
+renamed '/root/git/src/README.md' -> '/root/git/dst/README.md'
+renamed '/root/git/src/LICENSE' -> '/root/git/dst/LICENSE'
+renamed '/root/git/src/ext-system_1.0.1-10.debian.tar.xz' -> '/root/git/dst/ext-system_1.0.1-10.debian.tar.xz'
+renamed '/root/git/src/ext-system_1.0.1.orig.tar.xz' -> '/root/git/dst/ext-system_1.0.1.orig.tar.xz'
+renamed '/root/git/src/ext-system_1.0.1.orig.tar.xz.sha256' -> '/root/git/dst/ext-system_1.0.1.orig.tar.xz.sha256'
+renamed '/root/git/src/ext-system_1.0.1-10.dsc' -> '/root/git/dst/ext-system_1.0.1-10.dsc'
+renamed '/root/git/src/build.log' -> '/root/git/dst/build.log'
+/bin/mv: cannot stat '/root/git/src/*.sha256': No such file or directory
