@@ -13,11 +13,11 @@ Build-Depends: debhelper-compat (= 13)
 Package-List:
  ext-system deb admin optional arch=all
 Checksums-Sha1:
- b73a39af3968a0c547f0d4e59f23112cb26e9ce1 1028 ext-system_1.0.1.orig.tar.xz
+ c6207863bf75b2625c224a81a662855b0ea0166f 1028 ext-system_1.0.1.orig.tar.xz
  1666c00c79d395aef15dab7d8ca61ba62a7575ae 1080 ext-system_1.0.1-10.debian.tar.xz
 Checksums-Sha256:
- 5a60a5f3debb6eeddc5d7558639d65234cf9cd3e102fc748f5dacbb466d32362 1028 ext-system_1.0.1.orig.tar.xz
+ 1beb3d195922d7874eaf6f953aa0096ebe12d0937c3de0588c7e08a3d950f49d 1028 ext-system_1.0.1.orig.tar.xz
  6a1745aca57f0f6a6cc45b56412035d8e9f985492b6073059f6792cc76f49bb5 1080 ext-system_1.0.1-10.debian.tar.xz
 Files:
- 5b70dafe9e53627efc60ad9ba290a991 1028 ext-system_1.0.1.orig.tar.xz
+ 78f3db7863de5dd9dfbd049103ee7a21 1028 ext-system_1.0.1.orig.tar.xz
  9cebdbc63e548ed48213c73b077e5f46 1080 ext-system_1.0.1-10.debian.tar.xz
